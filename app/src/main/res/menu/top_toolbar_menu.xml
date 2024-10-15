@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/app_bar_sidebar"
+        android:icon="@drawable/baseline_menu_24"
+        android:orderInCategory="1"
+        android:title="@string/sidebar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/searchView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search here..."
+        android:title="@string/search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <item
+        android:id="@+id/app_bar_notification"
+        android:icon="@android:drawable/ic_popup_reminder"
+        android:title="@string/title_notifications"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom" />
+</menu>

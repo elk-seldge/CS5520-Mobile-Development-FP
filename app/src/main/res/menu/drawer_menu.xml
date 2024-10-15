@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/drawer_group_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <item
+            android:id="@+id/nav_BH"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/browse_history"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/nav_second"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/settings"
+            app:showAsAction="ifRoom" />
+    </group>
+    <group
+        android:id="@+id/drawer_group_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <item
+            android:id="@+id/item_temp_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/temp" />
+        <item
+            android:id="@+id/item_temp_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/temp" />
+    </group>
+    <item
+        android:id="@+id/drawer_submenu_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/sub_menu">
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <item
+                android:id="@+id/subitem_temp_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="@string/temp" />
+            <item
+                android:id="@+id/subitem_temp_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="@string/temp" />
+        </menu>
+    </item>
+</menu>

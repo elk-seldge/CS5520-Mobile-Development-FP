@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    app:navGraph="@navigation/mobile_navigation"
+    tools:context="edu.northeastern.yummycusine.ui.home.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/textViewTopRecipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/top_5_recipes"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerTopRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textViewAllRecipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/all_recipes"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAllRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2" />
+
+</LinearLayout>

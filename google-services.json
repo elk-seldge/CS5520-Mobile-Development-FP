@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "325540568590",
+    "project_id": "yummycusine",
+    "storage_bucket": "yummycusine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325540568590:android:eeda3c2f0ae7b3ddbbe65f",
+        "android_client_info": {
+          "package_name": "edu.northeastern.yummycusine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDllfS_8ixISYlO6lfw3D7fNgZ49I_LXlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

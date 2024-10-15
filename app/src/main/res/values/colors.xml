@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#58BFC3</color> <!-- Example: Deep Orange -->
+    <color name="colorPrimaryDark">#4089D6</color> <!-- Darker Deep Orange -->
+    <color name="colorAccent">#FFC107</color> <!-- Example: Amber for accent -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
